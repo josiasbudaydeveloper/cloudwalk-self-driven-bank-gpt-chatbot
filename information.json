@@ -1,0 +1,76 @@
+{
+  "company_name": "CloudWalk",
+  "description": "CloudWalk is a brazilian fintech startup that is democratizing the payments industry in Brazil, by empowering entrepreneurs through technological, inclusive, and life-changing solutions.",
+  "location": "Brazil",
+  "industry": "Fintech",
+  "focus": "Global payment network for small and medium-sized businesses",
+  "technology": ["Blockchain", "AI"],
+  "investors": ["Valor Capital Group", "The Hive", "Coatue", "Plug And Play - Tech Center", "Fis", "DST Global"],
+  "funding": {
+  "investments": "$365.5 million",
+  "FDICs": "R$3.4 billion"
+  },
+  "unicorn_status": true,
+  "customers": "Over 300,000 businesses across 5,000 brazilian cities",
+  "awards": ["The Retail Tech 100 - Protection Solutions for Payments and Frauds"],
+  "mission": "To build a new, fair payment system for all players",
+  "key_pillars": [
+  "Best Product",
+  "Next Level Customer Engagement",
+  "Disruptive Economics"
+  ],
+  "products": [
+  {
+  "name": "Infinity Pay",
+  "description": "CloudWalk introduces the third and most disruptive wave of innovation in the sector, challenging entirely the prevailing acquiring business model."
+  },
+  {
+  "name": "Self Driven Bank's project",
+  "description": "We are building the future of the financial industry. The first self-driving banking level 5.",
+  "levels": [
+  {
+  "level_number": 1,
+  "description": "We built a payment processor from scratch that serves millions of merchants and shoppers."
+  },
+  {
+  "level_number": 2,
+  "description": "We are building a stable coin to fix the financial sector where it is most needed. The GitHub project can be found at https://github.com/cloudwalk/brlc-token"
+  },
+  {
+  "level_number": 3,
+  "description": "We are building a lending protocol for merchants and shoppers. The GitHub project can be found at https://github.com/cloudwalk/compound-protocol"
+  },
+  {
+  "level_number": 4,
+  "description": "We are building a smart yield saving account for shoppers and merchants. The GitHub project can be found at https://github.com/cloudwalk/compound-protocol"
+  },
+  {
+  "level_number": 5,
+  "description": "We are building a smart loyalty reward program for shoppers and merchants. The GitHub project can be found at https://github.com/cloudwalk/brlc-token"
+  }
+  ]
+  }
+  ],
+  "FAQs": [
+    {
+      "question": "What is a self driving bank level 5?",
+      "answer": "Let's use first principles. A bank is a place where people and companies store money and pay bills. The bank uses the stored money to offer credit in various forms, to other people and companies. The credit card was invented to allow people to get credit and pay in any store without carrying a bag of cash. Visa and Mastercard, being linguistic companies, taught banks and payment acquirers, how to talk the same language worldwide. This language is used to issue credit, authorize and settle payment transactions between banks, people and companies. When these concepts were invented, we didn't have computers, internet and blockchain. Banks usually employ thousands of humans, outdated software, slow databases, bad written software and archaic processes, to store money and give credit. A self driving bank level 5, is an entity that does exactly the same: store money, give credit, authorize and settle payment transactions. But without any humans involved in the process. The whole thing is controlled by AI agents in a decentralized protocol. A self driving bank level 3 would be the analogous of the described above, but with few humans on the loop, to avoid accidents. We are on a mission to create a global payment network, delivering intermediaries on the path. A self driving bank level 5 is a must have."
+    },
+    {
+      "question": "What is your current status?",
+      "answer": "We are a fintech company who created a payment acquirer from scratch, being a principal member of Visa and Mastercard networks. Today we serve more than 200,000 merchants in Brazil, with card present and card not present payment solutions. We are growing pretty fast. These merchants have a hard time getting credit with banks. Their customers, shoppers like you and me, also have a hard time to get credit with the same banks. Banks and payment networks were invented in a pre-internet era and since then have been incrementally evolving. We do believe that banks, credit and payment networks can be thousands of times more efficient."
+    },
+    {
+      "question": "How can credit be more efficient?",
+      "answer": "We are developing a lending protocol which enables companies and people to get non-collateralized credit in a decentralized way. Initially the companies and people using this credit will be our merchants and shoppers. Soon anyone across the world. We have issued our own stable coin called Brazilian Digital Real (a Center token) and we have forked the Compound Protocol, changing a few key important elements, that enable its use for the kind of credit user experience we are envisioning. The APR of these credit pools are as efficient as the quality of the credit score that machine learning agents give to companies and people (addresses) that we allow to borrow money."
+    },
+    {
+      "question": "How can banks be more efficient?",
+      "answer": "All the money used to give credit comes from other people and companies. So instead of getting low APR in traditional banks, people and companies will have a savings account who automatically invest its money in our credit pools. No humans in the process, more efficiency and high yield to lenders and cheaper APR interest to borrowers."
+    },
+    {
+      "question": "How payments can be more efficient?",
+      "answer": "We want to give credit to companies and people in less than 6 seconds. So in less than 6 seconds you will be able to get credit and buy what you need using our app in your smartphone. Pretty different from the current status of the industry today, that just to get a credit card it takes weeks, if not months. When it arrives the whole payment experience is broken due to ecommerce checkouts with broken anti-fraud systems, poor banking customer support or slow card present hardware. Also we are creating a decentralized loyalty reward program, an essential part to incentivize shoppers to spend in few specific merchants. Our building blocks are already running on the Ethereum testnet. Unfortunately the TPS (transaction per second) capability is low on Ethereum mainnet (15 TPS) and the price to make a transaction is expensive. We are moving these building blocks to a Layer 2 solution, so we can have cheap transactions and enough TPS to serve billions of humans, companies and machines."
+    }
+  ]
+}
