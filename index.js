@@ -12,7 +12,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 /* requiring the information */
-const information = JSON.stringify(require('../information.json'));
+const information = JSON.stringify(require('./information.json'));
 
 /* GET to the index page */
 app.get('/', (req, res) => {
