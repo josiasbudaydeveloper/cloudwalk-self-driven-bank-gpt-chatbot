@@ -11,6 +11,6 @@
   },
   "scripts": {
     "start": "node -r dotenv/config index",
-    "dev": "nodemon -r dotenv/config index"
+    "dev": "npx nodemon -r dotenv/config index"
   }
 }
