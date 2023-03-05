@@ -1,6 +1,20 @@
 # cloudwalk-self-driven-bank-gpt-chatbot
 This is a ChatBot project to explain about the CloudWalk's Self Driven Bank project, based on OpenAI's GPT technology.
 
+## Version 2.0.0
+Breaking changes about the chatbot logic:
+### Now the chatbot will always answer the questions separately
+#### Explanation
+The previous intention was build something like ChatGPT, where it can understand the changes in the context during the conversasion.
+
+This is a complex feature and may be it will be implemented in the future, but for now, I will make all questions be treated separetely.
+
+In addition, another disadvantage is that every new question will send the entire information about CloudWalk, so the costs will be a little higher, because the API charges $0.002/token.
+
+#### In summary, these are the disadvantages of this solution:
+The chat do not understand any information between the questions
+The costs related to the API behind the chat will be a little higher, because the API charges $0.002/token and the messages of the question will always be with the entire information about CloudWalk.
+
 ## Project Description
 This is the description of my project of OpenAI API's usage showcase.
 
@@ -65,8 +79,11 @@ const completion = await openai.createChatCompletion({
 });
 ```
 
-Still about how the project works, the Socket.io library to creates a websocket between the client and server. 
-For every new question, the server responds based on the previous messages in the chat.
+Still about how the project works, the Socket.io library to creates a websocket between the client and server.
+
+~~For every new question, the server responds based on the previous messages in the chat.~~
+
+> For now, in reason of trouble with the AI understanding related to the changes of context during the conversation, the chatbot will treat all conversation messages separetaly.
 
 ## Installation
 To install this project, you need to follow these steps:
