@@ -21,38 +21,19 @@ app.get('/', (req, res) => {
 
 /* Configuring Socket.io */
 io.on('connection', (socket) => {
-  const arrayMessages = [];
-  let counter = 0;
-
-  socket.on('chat message', async (msg) => {
-    if (arrayMessages.length == 0) {
-      arrayMessages.push({
-        role: 'user',
-        content: `${information} Based on this information, please answer my question: ${msg}`
-      });
-    }
-    
+  socket.on('chat message', async (msg) => {    
     const completion = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
-      messages: arrayMessages,
+      messages: [{
+        "role": "user",
+        "content": `${information} Based on this information, please answer my question: ${msg}`
+      }]
     });
-    
-    if (arrayMessages.lenght % 2 == 0) {
-      arrayMessages.push({
-        role: 'user',
-        content: msg
-      }); 
-    }
-    else {
-      arrayMessages.push({
-        role: 'assistant',
-        content: completion.data.choices[0].message.content
-      });
-    }
+        
+    const answer = completion.data.choices[0].message.content;
 
     io.emit('chat message', msg);
-    io.emit('chat message', completion.data.choices[0].message.content);
-    counter++;
+    io.emit('chat message', answer);
   });
 });
 
