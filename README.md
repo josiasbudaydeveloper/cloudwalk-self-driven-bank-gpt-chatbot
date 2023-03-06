@@ -12,8 +12,8 @@ This is a complex feature and may be it will be implemented in the future, but f
 In addition, another disadvantage is that every new question will send the entire information about CloudWalk, so the costs will be a little higher, because the API charges $0.002/token.
 
 #### In summary, these are the disadvantages of this solution:
-The chat do not understand any information between the questions
-The costs related to the API behind the chat will be a little higher, because the API charges $0.002/token and the messages of the question will always be with the entire information about CloudWalk.
+- The chat do not understand any information between the questions
+- The costs related to the API behind the chat will be a little higher, because the API charges $0.002/token and the messages of the question will always be with the entire information about CloudWalk.
 
 ## Project Description
 This is the description of my project of OpenAI API's usage showcase.
