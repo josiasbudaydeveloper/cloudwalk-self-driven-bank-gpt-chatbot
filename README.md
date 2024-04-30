@@ -1,5 +1,5 @@
 # cloudwalk-self-driven-bank-gpt-chatbot
-This is a ChatBot project to explain about the CloudWalk's Self Driven Bank project, based on OpenAI's GPT technology.
+This is a ChatBot AI-Powered project I made  to explain about the CloudWalk's Self Driven Bank project, based on OpenAI's GPT technology using the OpenAI API.
 
 ## Version 2.0.0
 Breaking changes about the chatbot logic:
